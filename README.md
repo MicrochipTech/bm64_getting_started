@@ -83,19 +83,29 @@ MSPK refers also to Microchip Wireless Concert Technology (WCT).
 
 To evaluate our Bluetooth audio solutions, we've compiled a list of possible speakers compatible with BM64 Evaluation Board.
 
-- **Good, compact speaker for High Resolution demo:**
-    - Bose Companion 20:
+-> **Good, compact speaker for High Resolution demo:**
+<ul>
+<li>
+Bose Companion 20:
 <a href="https://www.bose.com/en_us/products/speakers/stereo_speakers/companion-20-multimedia-speaker-system.html" target="_blank">
 <img border="0" alt="Bose Companion 20" src="Doc/Bose_Companion_20.png" width="100">
-</a></br>
-    - Eltax MONITOR I: 
+</a>
+</li>
+
+<li>
+Eltax MONITOR I: 
 <a href="https://www.eltax.com/compactspeakers?lang=en" target="_blank">
 <img border="0" alt="Eltax Monitor I" src="Doc/Eltax_MONITOR_I.png" width="100">
-</a></br>
-    - KRK RP6G3:
+</a>
+</li>
+
+<li>
+KRK RP6G3:
 <a href="http://www.krksys.com/ROKIT-Powered-G3-Studio-Monitors" target="_blank">
 <img border="0" alt="Eltax Monitor I" src="Doc/KRK_RP6G3_ROKIT.png" width="80">
-</a></br>
+</a>
+</li>
+</ul>
 - **Simple, light and small speakers for our BM64 EVB demo (not High Resolution):**
     Ideal for mobility and demonstration purpose.
     - Small 5W speakers from AliExpress:
@@ -111,7 +121,7 @@ Mobile Application discovers BLE devices and filters the Microchip Audio devices
 This Mobile Application can be used for Stereo (DSPK) or Multi-speaker (MSPK) audio applications.
 </br>
 MBA is available as code sources and as an App in the respective stores.
-- The source code of the App for Android and iOS are available to download and both come come along with MSPKv1.35 Software Package (located into Software\Source Code folder):
+- The source code of the App for Android and iOS are available to download and both come come along with MSPKv1.35 Software Package (located into "Software\Source Code" folder):
 <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/BM64%20Software%20&%20Tools%20(MSPKv1.35).zip" target="_blank">http://ww1.microchip.com/downloads/en/DeviceDoc/BM64%20Software%20&%20Tools%20(MSPKv1.35).zip</a>
 - The Android version of the MBA app is available from the Google Play™ store:
 <a href="https://play.google.com/store/apps/details?id=com.app.microchip.audiowidget&hl=en" target="_blank">https://play.google.com/store/apps/details?id=com.app.microchip.audiowidget&hl=en</a>
@@ -178,11 +188,10 @@ In below example (video), a first board is paired to your smart phone (same proc
 then configured as MASTER, thru long press to the SW22 key (blue light).
 Other boards are then powered up (pressing MFB key) and then join the network here again after long press to the SW22 key.
 Connecting after the MASTER, they join as SLAVE (RED light).
-
+</br>
 <a href="https://youtu.be/uSUdk8q7EAQ" target="_blank">
 <img src="https://img.youtube.com/vi/uSUdk8q7EAQ/0.jpg" 
 alt="BM64 Multi-speaker Demo" width="240"></a>
-
 
 
 Up to 35 BM64 speakers have been chained together at trade shows such as CES based on our BM64 Speaker Reference Design from one of our partner.
