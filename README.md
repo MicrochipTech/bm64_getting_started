@@ -87,21 +87,21 @@ To evaluate our Bluetooth audio solutions, we've compiled a list of possible spe
     - Bose Companion 20:
 <a href="https://www.bose.com/en_us/products/speakers/stereo_speakers/companion-20-multimedia-speaker-system.html" target="_blank">
 <img border="0" alt="Bose Companion 20" src="Doc/Bose_Companion_20.png" width="100">
-</a>
+</a></br>
     - Eltax MONITOR I: 
 <a href="https://www.eltax.com/compactspeakers?lang=en" target="_blank">
 <img border="0" alt="Eltax Monitor I" src="Doc/Eltax_MONITOR_I.png" width="100">
-</a>
+</a></br>
     - KRK RP6G3:
 <a href="http://www.krksys.com/ROKIT-Powered-G3-Studio-Monitors" target="_blank">
 <img border="0" alt="Eltax Monitor I" src="Doc/KRK_RP6G3_ROKIT.png" width="80">
-</a>
+</a></br>
 - **Simple, light and small speakers for our BM64 EVB demo (not High Resolution):**
     Ideal for mobility and demonstration purpose.
     - Small 5W speakers from AliExpress:
 <a href="https://fr.aliexpress.com/item/32813633947.html?spm=2114.10010108.1000014.1.5adf217dwLUEud&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.13338.110449.000000000000000&scm_id=1007.13338.110449.000000000000000&scm-url=1007.13338.110449.000000000000000&pvid=fdd97866-236d-4ba5-9397-6af4f1ebfbce" target="_blank">
 <img border="0" alt="Basic 5W Speakers" src="Doc/Basic_5W_Speakers.png" width="120">
-</a>
+</a></br>
 
 ### Smartphone Apps <a name="step2b"></a>
 
@@ -111,7 +111,7 @@ Mobile Application discovers BLE devices and filters the Microchip Audio devices
 This Mobile Application can be used for Stereo (DSPK) or Multi-speaker (MSPK) audio applications.
 </br>
 MBA is available as code sources and as an App in the respective stores.
-- The source code of the App for Android and iOS are available to download and both come come along with MSPKv1.35 Software Package:
+- The source code of the App for Android and iOS are available to download and both come come along with MSPKv1.35 Software Package (located into Software\Source Code folder):
 <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/BM64%20Software%20&%20Tools%20(MSPKv1.35).zip" target="_blank">http://ww1.microchip.com/downloads/en/DeviceDoc/BM64%20Software%20&%20Tools%20(MSPKv1.35).zip</a>
 - The Android version of the MBA app is available from the Google Play™ store:
 <a href="https://play.google.com/store/apps/details?id=com.app.microchip.audiowidget&hl=en" target="_blank">https://play.google.com/store/apps/details?id=com.app.microchip.audiowidget&hl=en</a>
@@ -160,7 +160,7 @@ alt="BM64 Stereo Demo" width="240"></a>
 
 ### Evaluate Multi-speaker Mode (MSPK) <a name="step2e"></a>
 
-Application Note <a href="http://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en604702" target="_blank">AN2645</a> introduces DSPK Technology, gives you guidelines to setup then operate your development boards in Multi-Speaker mode using MBA App or the EVB keyboard (using only 2 keys, MFB and SW22).
+Application Note <a href="http://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en604702" target="_blank">AN2645</a> introduces MSPK Technology, gives you guidelines to setup then operate your development boards in Multi-Speaker mode using MBA App or the EVB keyboard (using only 2 keys, MFB and SW22).
 </br>
 
 **This demo is based on MSPK 1.35 Firmware. First, update the BM64 Firmware and EEPROM parameters by following the steps as described in AN2645.**
