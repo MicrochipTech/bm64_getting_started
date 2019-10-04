@@ -91,6 +91,7 @@ Bose Companion 20:
 <img border="0" alt="Bose Companion 20" src="Doc/Bose_Companion_20.png" width="100">
 </a>
 </li>
+</br>
 
 <li>
 Eltax MONITOR I: 
@@ -106,7 +107,7 @@ KRK RP6G3:
 </a>
 </li>
 </ul>
-- **Simple, light and small speakers for our BM64 EVB demo (not High Resolution):**
+-> **Simple, light and small speakers for our BM64 EVB demo (not High Resolution):**
     Ideal for mobility and demonstration purpose.
     - Small 5W speakers from AliExpress:
 <a href="https://fr.aliexpress.com/item/32813633947.html?spm=2114.10010108.1000014.1.5adf217dwLUEud&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.13338.110449.000000000000000&scm_id=1007.13338.110449.000000000000000&scm-url=1007.13338.110449.000000000000000&pvid=fdd97866-236d-4ba5-9397-6af4f1ebfbce" target="_blank">
