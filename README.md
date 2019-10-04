@@ -99,6 +99,7 @@ Eltax MONITOR I:
 <img border="0" alt="Eltax Monitor I" src="Doc/Eltax_MONITOR_I.png" width="100">
 </a>
 </li>
+</br>
 
 <li>
 KRK RP6G3:
@@ -107,12 +108,19 @@ KRK RP6G3:
 </a>
 </li>
 </ul>
+</br>
+
 -> **Simple, light and small speakers for our BM64 EVB demo (not High Resolution):**
     Ideal for mobility and demonstration purpose.
-    - Small 5W speakers from AliExpress:
+<ul>
+<li>
+Small 5W speakers from AliExpress:
 <a href="https://fr.aliexpress.com/item/32813633947.html?spm=2114.10010108.1000014.1.5adf217dwLUEud&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.13338.110449.000000000000000&scm_id=1007.13338.110449.000000000000000&scm-url=1007.13338.110449.000000000000000&pvid=fdd97866-236d-4ba5-9397-6af4f1ebfbce" target="_blank">
 <img border="0" alt="Basic 5W Speakers" src="Doc/Basic_5W_Speakers.png" width="120">
-</a></br>
+</a>
+</li>
+</ul>
+</br>
 
 ### Smartphone Apps <a name="step2b"></a>
 
