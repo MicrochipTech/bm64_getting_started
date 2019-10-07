@@ -155,12 +155,12 @@ BM64 Class 2 Evaluation board: <a href="https://www.microchip.com/DevelopmentToo
 Application Note <a href="http://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en604469" target="_blank">AN2614</a> introduces DSPK Technology, gives you guidelines to setup then operate your development board in Stereo mode using MBA App or the EVB keyboard (using only MFB key).
 </br>
 
-**This demo is based on DSPK 2.1.x Firmware. First, update the BM64 Firmware and EEPROM parameters by following the steps as described in AN2614.**
+**This demo is based on DSPK 2.1.2 Firmware. First, update the PIC18 MCU Code, BM64 Firmware and EEPROM parameters by following the steps as described in AN2614.**
+**As a general information, it is strongly recommended to update every single items (MCU code, BM64 Firmware, BM64 EEPROM, ..) from the same Software Package and do not mix the software.**
 </br>
 Resources:</br>
 - <a href="http://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en604469" target="_blank">AN2614 - Bluetooth Dual Mode Speaker Audio Application</a>
-- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/BM64%20Software%20&%20Tools%20(DSPKv2.1).zip" target="_blank">DSPK 2.1 Software package</a>
-- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/BM6x%20DSPK2.1%20Firmware%20Update.pdf" target="_blank">DSPK 2.1 Release Notes</a>
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/DSPK%20v2.1.2%20package.zip" target="_blank">DSPK 2.1.2 Software package</a>
 - <a href="https://www.youtube.com/watch?v=Eq4SjI17xPE" target="_blank">BM64 FW and EEPROM update video</a>
 
 <p>Setup of the environment with basic speakers and smartphone:</br>
@@ -208,3 +208,52 @@ Up to 35 BM64 speakers have been chained together at trade shows such as CES bas
 <img border="0" alt="BM64 MSPK" src="Doc/BM64_SPEAKER_REF_DESIGN.png" width="200">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img border="0" alt="BM64 MSPK" src="Doc/BM64_MSPK_DEMO.png" width="200">
+
+### Select the device you need <a name="step3"></a>
+
+Just select the device you need from the following link: <a href="https://www.microchipdirect.com/product/search/all/bm64" target="_blank">Buy BM64</a>
+</br>
+
+Every BM64 modules comes with common feature set:</br>
+Surface mount module with </br>
+Package Size   : 32 x 15 x 2.5 mm</br>
+Lead Count     : 43</br>
+Temp Range     : -20C to +70C</br>
+Op Voltage Min : 3.2V</br>
+Op Voltage Max : 4.2V</br>
+
+Here the ordering information:</br>
+
+**BM64SPKA1MC2-0001AA**</br>
+Without RF shield </br>
+Certification : CE</br>
+Class 2 module with +2 dBm (typical) output power</br>
+Mono/Stereo Speaker firmware (DSPK) - Version 1.1 </br>
+</br>
+**BM64SPKS1MC2-0001AA**</br>
+With RF shield </br>
+Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC, ANATEL </br>
+Class 2 module with +2 dBm (typical) output power </br>
+Mono/Stereo Speaker firmware (DSPK) - Version 1.1 </br>
+</br>
+**BM64SPKA1MC1-0001AA** </br>
+Without RF shield</br>
+Certification : CE</br>
+Class 1 module with +15 dBm (typical) output power</br>
+Mono/Stereo Speaker firmware (DSPK) - Version 1.1 </br>
+</br>
+**BM64SPKS1MC1-0001AA** </br>
+With RF shield</br>
+Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC</br>
+Class 1 module with +15 dBm (typical) output power</br>
+Mono/Stereo Speaker firmware (DSPK) - Version 1.1 </br>
+</br>
+**BM64SPKS1MC1-00M2AA**</br>
+With RF shield</br>
+Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC</br>
+Class 1 module with +15 dBm (typical) output power</br>
+Multi-Speaker firmware (MSPK) - Version 1.35 - Microchip’s Wireless Concert Technology (WCT)</br>
+
+### Develop with BM64 <a name="step4"></a>
+
+todo
