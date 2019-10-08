@@ -38,7 +38,7 @@ The BM64 is a fully-certified Bluetooth 5.0 Audio module for designers who want 
 
 The BM64 is certified Bluetooth 5.0 dual-mode module.
 - Bluetooth Classic: BDR/EDR low-level transport layer for audio or voice streaming and SPP for data exchange (provisioning).
-- BLE transport for proprietary transparent service and Apple Notification Center Service (ANCS) data exchange
+- BLE transport for proprietary transparent service to provide a BLE substitute for the Serial Port Protocol (SPP) of classic Bluetooth for use with an Apple® iPhone®, which does not support SPP. 
 (audio commands for working with Android and iOS)
 </br>
 
@@ -209,7 +209,7 @@ Up to 35 BM64 speakers have been chained together at trade shows such as CES bas
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img border="0" alt="BM64 MSPK" src="Doc/BM64_MSPK_DEMO.png" width="200">
 
-### Select the device you need <a name="step3"></a>
+## Select the device you need <a name="step3"></a>
 
 Just select the device you need from the following link: <a href="https://www.microchipdirect.com/product/search/all/bm64" target="_blank">Buy BM64</a>
 </br>
@@ -254,6 +254,6 @@ Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC</br>
 Class 1 module with +15 dBm (typical) output power</br>
 Multi-Speaker firmware (MSPK) - Version 1.35 - Microchip’s Wireless Concert Technology (WCT)</br>
 
-### Develop with BM64 <a name="step4"></a>
+## Develop with BM64 <a name="step4"></a>
 
 todo
