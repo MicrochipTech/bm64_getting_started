@@ -9,9 +9,13 @@ The BM64 is a fully-certified Bluetooth 5.0 Audio module for designers who want 
 <p>
 <a href="https://www.microchip.com" target="_blank">
 <img border="0" alt="Microchip_logo" src="Doc/Microchip_logo.png" width="150">
+</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 <a href="https://www.microchip.com/bm64" target="_blank">
 <img border="0" alt="BM64" src="Doc/medium-BM64-MODULE-43.png" width="70">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+<a href="https://www.microchip.com/bm64" target="_blank">https://www.microchip.com/bm64</a>
 </p>
 </a>
 
@@ -224,36 +228,44 @@ Op Voltage Max : 4.2V</br>
 
 Here the ordering information:</br>
 
-**BM64SPKA1MC2-0001AA**</br>
-Without RF shield </br>
-Certification : CE</br>
-Class 2 module with +2 dBm (typical) output power</br>
-Mono/Stereo Speaker firmware (DSPK) - Version 1.1 </br>
-</br>
-**BM64SPKS1MC2-0001AA**</br>
-With RF shield </br>
-Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC, ANATEL </br>
-Class 2 module with +2 dBm (typical) output power </br>
-Mono/Stereo Speaker firmware (DSPK) - Version 1.1 </br>
-</br>
-**BM64SPKA1MC1-0001AA** </br>
-Without RF shield</br>
-Certification : CE</br>
-Class 1 module with +15 dBm (typical) output power</br>
-Mono/Stereo Speaker firmware (DSPK) - Version 1.1 </br>
-</br>
-**BM64SPKS1MC1-0001AA** </br>
-With RF shield</br>
-Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC</br>
-Class 1 module with +15 dBm (typical) output power</br>
-Mono/Stereo Speaker firmware (DSPK) - Version 1.1 </br>
-</br>
-**BM64SPKS1MC1-00M2AA**</br>
-With RF shield</br>
-Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC</br>
-Class 1 module with +15 dBm (typical) output power</br>
-Multi-Speaker firmware (MSPK) - Version 1.35 - Microchip’s Wireless Concert Technology (WCT)</br>
+**BM64SPKS1MC1-00M2AA (Recommended)**
+- With RF shield
+- Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC
+- Class 1 module with +15 dBm (typical) output power
+- Multi-Speaker firmware (MSPK) - Version 1.35 (Latest release) - Microchip’s Wireless Concert Technology (WCT)
+
+**BM64SPKS1MC2-0002AA (Recommended)**
+- With RF shield
+- Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC
+- Class 2 module with +2 dBm (typical) output power
+- Mono/Stereo Speaker firmware (DSPK) - Version 2.1.2 (Latest release)
+
+**BM64SPKA1MC2-0001AA (Legacy)**
+- Without RF shield
+- Certification : CE
+- Class 2 module with +2 dBm (typical) output power
+- Mono/Stereo Speaker firmware (DSPK) - Version 1.1
+
+**BM64SPKS1MC2-0001AA (Legacy)**
+- With RF shield
+- Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC, ANATEL
+- Class 2 module with +2 dBm (typical) output power
+- Mono/Stereo Speaker firmware (DSPK) - Version 1.1
+
+**BM64SPKA1MC1-0001AA (Legacy)**
+- Without RF shield
+- Certification : CE
+- Class 1 module with +15 dBm (typical) output power
+- Mono/Stereo Speaker firmware (DSPK) - Version 1.1
+
+**BM64SPKS1MC1-0001AA (Legacy)**
+- With RF shield
+- Certification : CE, FCC, IC, MIC, KCC, NCC, SRRC
+- Class 1 module with +15 dBm (typical) output power
+- Mono/Stereo Speaker firmware (DSPK) - Version 1.1
+
+
 
 ## Develop with BM64 <a name="step4"></a>
 
-todo
+...
