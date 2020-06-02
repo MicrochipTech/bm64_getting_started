@@ -34,6 +34,8 @@ The BM64 is a fully-certified Bluetooth 5.0 Audio module for designers who want 
 	
 1. [Select the device you need](#step3)
 1. [Develop with BM64](#step4)
+	1. [Connect and exchange BLE data between BM64 and BM70 while playing music](#step4a)
+	1. [Connect and exchange BLE data between BM64 and RN4870](#step4b)
 1. [Additional ressources](#step5)
 
 ## Discover our Technologies <a name="step1"></a>
@@ -74,12 +76,10 @@ multi speaker applications (see MSPK firmware).
 Two additional options:</br>
 The BM64 module can be configured with one of these two firmware versions.
 
-- DSPK firmware is able to stream A2DP music to one speaker (mono) or two speakers (Stereo mode: mono left and mono right).
-- MSPK firmware is able to stream A2DP music to multiple speakers from one audio source such as a smartphone.
+- DSPK Firmware enables A2DP music streaming to one speaker (mono) or two speakers (stereo: mono left and mono right).
+- MSPK Firmware enables A2DP music streaming to more than two speakers from one audio source such as a smartphone.
 MSPK refers also to Microchip Wireless Concert Technology (WCT).
 </br>
-
-
 
 ## Overview of our Solutions <a name="step2"></a>
 
@@ -130,7 +130,7 @@ Small 5W speakers from AliExpress:
 
 Microchip provides a smartphone App called MBA (Microchip Bluetooth Audio) supporting both Android 6.0 (or higher) and iOS 10.0 (and higher device).
 </br>
-Mobile Application discovers BLE devices and filters the Microchip Audio devices (BM64 based) and communicates with them over Microchip’s Proprietary BLE Service called Transparent Service.
+Mobile Application discovers BLE devices and filters the Microchip Audio devices (BM6x or BM8x based) and communicates with them over Microchip’s Proprietary BLE Service called Transparent Service.
 This Mobile Application can be used for Stereo (DSPK) or Multi-speaker (MSPK) audio applications.
 </br>
 MBA is available as code sources and as an App in the respective stores.
@@ -166,6 +166,7 @@ Resources:</br>
 - <a href="http://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en604469" target="_blank">AN2614 - Bluetooth Dual Mode Speaker Audio Application</a>
 - <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/DSPK%20v2.1.2%20package.zip" target="_blank">DSPK 2.1.2 Software package</a>
 - <a href="https://www.youtube.com/watch?v=Eq4SjI17xPE" target="_blank">BM64 FW and EEPROM update video</a>
+- <a href="https://youtu.be/somVpI_h7aE" target="_blank">BM64 FW Update via USB HID</a>
 
 <p>Setup of the environment with basic speakers and smartphone:</br>
 <img border="0" alt="BM64 EVB" src="Doc/BM64-EVB_SPEAKERS.png" width="175">
@@ -192,6 +193,7 @@ Resources:</br>
 - <a href="http://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en604702" target="_blank">AN2645 - Bluetooth Multi-Speaker Audio Application</a>
 - <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/BM64%20Software%20&%20Tools%20(MSPKv1.35).zip" target="_blank">MSPK 1.35 Software package</a>
 - <a href="https://www.youtube.com/watch?v=Eq4SjI17xPE" target="_blank">BM64 FW and EEPROM update video</a>
+- <a href="https://youtu.be/ACJ493mZH_w" target="_blank">BM64 MSPK Stereo Mode Grouping</a>
 
 <p>Setup of the environment with basic speakers and smartphone:</br>
 <img border="0" alt="BM64 EVB" src="Doc/BM64-EVB_MSPK_SETUP.png" width="400">
@@ -205,7 +207,6 @@ Connecting after the MASTER, they join as SLAVE (RED light).
 <a href="https://youtu.be/uSUdk8q7EAQ" target="_blank">
 <img src="https://img.youtube.com/vi/uSUdk8q7EAQ/0.jpg" 
 alt="BM64 Multi-speaker Demo" width="240"></a>
-
 
 Up to 35 BM64 speakers have been chained together at trade shows such as CES based on our BM64 Speaker Reference Design from one of our partner.
 </br>
@@ -268,4 +269,31 @@ Here the ordering information:</br>
 
 ## Develop with BM64 <a name="step4"></a>
 
-...
+### Connect and exchange BLE data between BM64 and BM70 while playing music <a name="step4a"></a>
+
+**This tutorial explain how to enable BLE Transparent UART communication between <a href="https://www.microchip.com/bm64" target="_blank">BM64 BT Audio Device</a> and <a href="https://www.microchip.com/bm70" target="_blank">BM70 BLE Device</a></br>**
+
+BM64 Data transfer over BLE using Transparent UART while playing music(over A2DP). Hardware used is the BM64-EVB.</br>
+The BM70-PICTail is used for this demo, acting as the GATT Client.</br>
+The BM70 has its own Transparent UART service so it should not be confused with the BM64's.</br>
+Since the BM70 and BM71 are virtually similar, this video applies to both devices.</br>
+This relation applies to the BM62 and BM64 as well.</br>
+
+**Check out the tutorial here**</br>
+<a href="https://youtu.be/hjPunk51BOY" target="_blank">
+<img src="https://img.youtube.com/vi/hjPunk51BOY/0.jpg" 
+alt="Connect and exchange BLE data between BM64 and BM70" width="400"></a>
+
+### Connect and exchange BLE data between BM64 and RN4870 <a name="step4b"></a>
+
+**This tutorial explain how to enable BLE Transparent UART communication between <a href="https://www.microchip.com/bm64" target="_blank">BM64 BT Audio Device</a> and <a href="https://www.microchip.com/rn4870" target="_blank">RN4870 BLE Device</a></br>**
+
+The BM64 is acting as a Server and RN4870 is the Client.</br>
+Since the RN4870 is optimized to be the Transparent UART Server, it has to be operated in Command Mode to perform writes but it can still receive data when Command Mode is exited.</br>
+Since the RN4870 and RN4871 are virtually similar, this video applies to both devices.</br>
+This relation applies to the BM62 and BM64 as well.</br>
+
+**Check out the tutorial here**</br>
+<a href="https://youtu.be/yznmzgVuhv4" target="_blank">
+<img src="https://img.youtube.com/vi/yznmzgVuhv4/0.jpg" 
+alt="Connect and exchange BLE data between BM64 and RN4870" width="400"></a>
