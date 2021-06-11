@@ -1,4 +1,6 @@
 # BM64_GETTING_STARTED
+<img src="Doc/IoT-Made-Easy-Logo.png" width=100>
+
 > “Wireless Made Easy!" - BM64 Getting Started with Stereo (DSPK) and Multi-speaker (MSPK) modes
 
 The BM64 is a fully-certified Bluetooth 5.0 Audio module for designers who want to add Bluetooth wireless audio and voice applications to their products.
